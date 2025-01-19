@@ -205,7 +205,7 @@ main {
 .objective {
   margin-top: 50px;
   height : 850px;
-  background-image: url(images/obj.jpg);
+  background-image: url(obj.jpg);
   background-size: contain;
   background-attachment: fixed;
 }
@@ -474,7 +474,7 @@ footer {
 /* About us page starts ---------------->*/
 /*hero section starts */
 .heroContainer {
-  background-image: url("images/hero-section2.jpg");
+  background-image: url("hero-section2.jpg");
   background-size:cover;
   min-height: 25rem;
   display: flex;
