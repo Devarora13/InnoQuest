@@ -44,15 +44,16 @@ a {
     background-color: var(--bs-dropdown-link-hover-bg);
   }
 }
-/* Custom CSS for hover dropdown */
-.navbar-nav .dropdown:hover .dropdown-menu {
-  display: block; /* Show the dropdown menu */
-  margin-top: 0; /* Adjust the position */
-}
-
-.navbar-nav .dropdown-menu {
-  display: none; /* Hide by default */
-  transition: opacity 0.2s ease-in-out;
+/* Custom CSS for hover dropdown , works only on expanded Nav*/
+@media screen and (min-width:992px) {
+  .navbar-nav .dropdown:hover .dropdown-menu {
+    display: block; /* Show the dropdown menu */
+    margin-top: 0; /* Adjust the position */
+  } 
+  .navbar-nav .dropdown-menu {
+    display: none; /* Hide by default */
+    transition: opacity 0.2s ease-in-out;
+  }
 }
 
 .btnEffect {
